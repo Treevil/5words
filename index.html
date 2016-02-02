@@ -22,23 +22,19 @@
         </header>
         <div class="row">
             <div class="col-xs-6">
-                <h2>Controlli <i class="fa fa-facebook"></i></h2>
                 <span id="chronotime">0:00:00:00</span>
-                <form name="chronoForm">
-                    <input type="button" name="startstop" value="start!"  />
-                    <input type="button" name="reset" value="reset!" onClick="chronoReset()" />
-                </form>
+                <nav>
+                    <button id="playnstop" type="button" class="btn btn-default" onClick="chronoStart()"><i class="fa fa-play-circle-o"></i></button>
+                    <button id="reset" type="button" class="btn btn-default" onClick="chronoReset()"><i class="fa fa-repeat"></i></button>
+                    <button type="button" class="btn btn-default"><i class="fa fa-forward"></i></button>
+                    <!--<button type="button" class="btn btn-default"><i class="fa fa-cog"></i></button>-->
+                </nav>
             </div>
              <div class="col-xs-6">
                 <output id="container"></output>
             </div>
         </div>
-        <nav>
-            <button id="playnstop" type="button" class="btn btn-default" onClick="chronoStart()"><i class="fa fa-play-circle-o"></i></button>
-            <button id="reset" type="button" class="btn btn-default" onClick="chronoReset()"><i class="fa fa-repeat"></i></button>
-            <button type="button" class="btn btn-default"><i class="fa fa-forward"></i></button>
-            <!--<button type="button" class="btn btn-default"><i class="fa fa-cog"></i></button>-->
-        </nav>
+
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="dist/scripts/main.min.js"></script>

@@ -356,12 +356,11 @@ th {
 body {
   background-image: url("../images/sos.png"); }
 
-nav {
-  bottom: 10px;
-  position: fixed;
-  width: 100%; }
-  nav .btn {
-    font-size: 6em; }
+nav .btn {
+  font-size: 6em; }
+
+#chronotime {
+  font-size: 6em; }
 
 output {
   font-size: 3em; }
