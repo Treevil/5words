@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div id="fakeLoader"></div>
+    <div id="fakeloader"></div>
     <div class="container text-center">
         <header>
             <div class="row">
@@ -40,9 +40,12 @@
     <script src="dist/scripts/main.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script type="text/javascript">
-        $("#fakeloader").fakeLoader({
-            spinner:"spinner6",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
-            bgColor:"#2ecc71", //Hex, RGB or RGBA colors
+        $(document).ready(function(){
+                $("#fakeloader").fakeLoader({
+                    timeToHide:1200,
+                    bgColor:"#1abc9c",
+                    spinner:"spinner6"
+                });
         });
     </script>
 </body>
