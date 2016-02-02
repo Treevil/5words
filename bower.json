@@ -1,0 +1,18 @@
+{
+  "name": "5words",
+  "description": "Webpage for dialetic exercise",
+  "main": "index.html",
+  "authors": [
+    "Trevor Devalle"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Treevil/5words",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
